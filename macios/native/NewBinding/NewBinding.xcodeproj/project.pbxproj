@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06BC244D2E0C289F0019C976 /* OneSignalLiveActivities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06BC24492E0C289E0019C976 /* OneSignalLiveActivities.xcframework */; };
+		06BC244F2E0C289F0019C976 /* OneSignalExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06BC244A2E0C289E0019C976 /* OneSignalExtension.xcframework */; };
+		06BC24512E0C289F0019C976 /* OneSignalLocation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06BC244B2E0C289F0019C976 /* OneSignalLocation.xcframework */; };
+		06BC24532E0C289F0019C976 /* OneSignalInAppMessages.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06BC244C2E0C289F0019C976 /* OneSignalInAppMessages.xcframework */; };
 		06BDD3DD2E0C209F0047FEAB /* OneSignalOutcomes.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06BDD3D72E0C209E0047FEAB /* OneSignalOutcomes.xcframework */; };
 		06BDD3DF2E0C209F0047FEAB /* OneSignalOSCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06BDD3D82E0C209E0047FEAB /* OneSignalOSCore.xcframework */; };
 		06BDD3E12E0C209F0047FEAB /* OneSignalUser.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06BDD3D92E0C209F0047FEAB /* OneSignalUser.xcframework */; };
@@ -18,12 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		06BDD3C42E0C0AEB0047FEAB /* OneSignalUser.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:J3J28YJX9L:OneSignal, Inc."; lastKnownFileType = wrapper.xcframework; name = OneSignalUser.xcframework; path = ../Frameworks/OneSignalUser.xcframework; sourceTree = "<group>"; };
-		06BDD3C52E0C0AEB0047FEAB /* OneSignalFramework.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:J3J28YJX9L:OneSignal, Inc."; lastKnownFileType = wrapper.xcframework; name = OneSignalFramework.xcframework; path = ../Frameworks/OneSignalFramework.xcframework; sourceTree = "<group>"; };
-		06BDD3C62E0C0AEB0047FEAB /* OneSignalNotifications.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:J3J28YJX9L:OneSignal, Inc."; lastKnownFileType = wrapper.xcframework; name = OneSignalNotifications.xcframework; path = ../Frameworks/OneSignalNotifications.xcframework; sourceTree = "<group>"; };
-		06BDD3C72E0C0AEC0047FEAB /* OneSignalOSCore.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:J3J28YJX9L:OneSignal, Inc."; lastKnownFileType = wrapper.xcframework; name = OneSignalOSCore.xcframework; path = ../Frameworks/OneSignalOSCore.xcframework; sourceTree = "<group>"; };
-		06BDD3C82E0C0AEC0047FEAB /* OneSignalOutcomes.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:J3J28YJX9L:OneSignal, Inc."; lastKnownFileType = wrapper.xcframework; name = OneSignalOutcomes.xcframework; path = ../Frameworks/OneSignalOutcomes.xcframework; sourceTree = "<group>"; };
-		06BDD3C92E0C0AEC0047FEAB /* OneSignalCore.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:J3J28YJX9L:OneSignal, Inc."; lastKnownFileType = wrapper.xcframework; name = OneSignalCore.xcframework; path = ../Frameworks/OneSignalCore.xcframework; sourceTree = "<group>"; };
+		06BC24492E0C289E0019C976 /* OneSignalLiveActivities.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:J3J28YJX9L:OneSignal, Inc."; lastKnownFileType = wrapper.xcframework; name = OneSignalLiveActivities.xcframework; path = ../../NewBinding.MaciOS.Binding/Frameworks/OneSignalLiveActivities.xcframework; sourceTree = "<group>"; };
+		06BC244A2E0C289E0019C976 /* OneSignalExtension.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:J3J28YJX9L:OneSignal, Inc."; lastKnownFileType = wrapper.xcframework; name = OneSignalExtension.xcframework; path = ../../NewBinding.MaciOS.Binding/Frameworks/OneSignalExtension.xcframework; sourceTree = "<group>"; };
+		06BC244B2E0C289F0019C976 /* OneSignalLocation.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:J3J28YJX9L:OneSignal, Inc."; lastKnownFileType = wrapper.xcframework; name = OneSignalLocation.xcframework; path = ../../NewBinding.MaciOS.Binding/Frameworks/OneSignalLocation.xcframework; sourceTree = "<group>"; };
+		06BC244C2E0C289F0019C976 /* OneSignalInAppMessages.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:J3J28YJX9L:OneSignal, Inc."; lastKnownFileType = wrapper.xcframework; name = OneSignalInAppMessages.xcframework; path = ../../NewBinding.MaciOS.Binding/Frameworks/OneSignalInAppMessages.xcframework; sourceTree = "<group>"; };
 		06BDD3D72E0C209E0047FEAB /* OneSignalOutcomes.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:J3J28YJX9L:OneSignal, Inc."; lastKnownFileType = wrapper.xcframework; name = OneSignalOutcomes.xcframework; path = ../../NewBinding.MaciOS.Binding/Frameworks/OneSignalOutcomes.xcframework; sourceTree = "<group>"; };
 		06BDD3D82E0C209E0047FEAB /* OneSignalOSCore.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:J3J28YJX9L:OneSignal, Inc."; lastKnownFileType = wrapper.xcframework; name = OneSignalOSCore.xcframework; path = ../../NewBinding.MaciOS.Binding/Frameworks/OneSignalOSCore.xcframework; sourceTree = "<group>"; };
 		06BDD3D92E0C209F0047FEAB /* OneSignalUser.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:J3J28YJX9L:OneSignal, Inc."; lastKnownFileType = wrapper.xcframework; name = OneSignalUser.xcframework; path = ../../NewBinding.MaciOS.Binding/Frameworks/OneSignalUser.xcframework; sourceTree = "<group>"; };
@@ -42,9 +44,13 @@
 			files = (
 				06BDD3E52E0C209F0047FEAB /* OneSignalNotifications.xcframework in Frameworks */,
 				06BDD3E72E0C209F0047FEAB /* OneSignalCore.xcframework in Frameworks */,
+				06BC244F2E0C289F0019C976 /* OneSignalExtension.xcframework in Frameworks */,
+				06BC24532E0C289F0019C976 /* OneSignalInAppMessages.xcframework in Frameworks */,
 				06BDD3E12E0C209F0047FEAB /* OneSignalUser.xcframework in Frameworks */,
 				06BDD3DD2E0C209F0047FEAB /* OneSignalOutcomes.xcframework in Frameworks */,
+				06BC244D2E0C289F0019C976 /* OneSignalLiveActivities.xcframework in Frameworks */,
 				06BDD3DF2E0C209F0047FEAB /* OneSignalOSCore.xcframework in Frameworks */,
+				06BC24512E0C289F0019C976 /* OneSignalLocation.xcframework in Frameworks */,
 				06BDD3E32E0C209F0047FEAB /* OneSignalFramework.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,18 +61,16 @@
 		06BDD3C32E0C0AEB0047FEAB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				06BC244A2E0C289E0019C976 /* OneSignalExtension.xcframework */,
+				06BC244C2E0C289F0019C976 /* OneSignalInAppMessages.xcframework */,
+				06BC24492E0C289E0019C976 /* OneSignalLiveActivities.xcframework */,
+				06BC244B2E0C289F0019C976 /* OneSignalLocation.xcframework */,
 				06BDD3DC2E0C209F0047FEAB /* OneSignalCore.xcframework */,
 				06BDD3DA2E0C209F0047FEAB /* OneSignalFramework.xcframework */,
 				06BDD3DB2E0C209F0047FEAB /* OneSignalNotifications.xcframework */,
 				06BDD3D82E0C209E0047FEAB /* OneSignalOSCore.xcframework */,
 				06BDD3D72E0C209E0047FEAB /* OneSignalOutcomes.xcframework */,
 				06BDD3D92E0C209F0047FEAB /* OneSignalUser.xcframework */,
-				06BDD3C92E0C0AEC0047FEAB /* OneSignalCore.xcframework */,
-				06BDD3C52E0C0AEB0047FEAB /* OneSignalFramework.xcframework */,
-				06BDD3C62E0C0AEB0047FEAB /* OneSignalNotifications.xcframework */,
-				06BDD3C72E0C0AEC0047FEAB /* OneSignalOSCore.xcframework */,
-				06BDD3C82E0C0AEC0047FEAB /* OneSignalOutcomes.xcframework */,
-				06BDD3C42E0C0AEB0047FEAB /* OneSignalUser.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
