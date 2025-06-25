@@ -62,7 +62,7 @@
 
 	<!-- Reference to Android Binding project -->
 	<ItemGroup Condition="$(TargetFramework.Contains('android'))">
-        <ProjectReference Include="..\android\NewBinding.Android.Binding\NewBinding.Android.Binding.csproj" />
+        <ProjectReference Include="..\android\OneSignal.Native.Android\OneSignal.Native.Android.csproj" />
     </ItemGroup>
 
     <!-- Reference the Android binding dependencies -->
