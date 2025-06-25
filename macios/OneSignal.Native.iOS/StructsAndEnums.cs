@@ -1,4 +1,4 @@
-namespace NewBindingMaciOS {
+namespace OneSignal.Native.iOS {
     public enum OneSignalLogLevel
     {
         None,

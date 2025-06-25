@@ -57,7 +57,7 @@
 
 	<!-- Reference to MaciOS Binding project -->
 	<ItemGroup Condition="$(TargetFramework.Contains('ios'))">
-        <ProjectReference Include="..\macios\NewBinding.MaciOS.Binding\NewBinding.MaciOS.Binding.csproj" />
+        <ProjectReference Include="..\macios\OneSignal.Native.iOS\OneSignal.Native.iOS.csproj" />
     </ItemGroup>
 
 	<!-- Reference to Android Binding project -->

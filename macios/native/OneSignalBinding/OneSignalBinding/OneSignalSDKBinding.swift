@@ -8,8 +8,8 @@
 import Foundation
 import OneSignalFramework
 
-@objc(DotnetNewBinding)
-public class DotnetNewBinding : NSObject
+@objc(OneSignalSDKBinding)
+public class OneSignalSDKBinding : NSObject
 {
     @objc
     public static func setLogLevel(logLeve: ONE_S_LOG_LEVEL) -> Void {

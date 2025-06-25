@@ -10,6 +10,7 @@
       To learn more, see: https://learn.microsoft.com/dotnet/core/deploying/trimming/prepare-libraries-for-trimming
     -->
     <IsTrimmable>true</IsTrimmable>
+    <RootNamespace>OneSignal.Native.iOS</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,8 +20,8 @@
 
   <!-- Reference to Xcode project -->
   <ItemGroup>
-    <XcodeProject Include="../native/NewBinding/NewBinding.xcodeproj">
-      <SchemeName>NewBinding</SchemeName>
+    <XcodeProject Include="../native/OneSignalBinding/OneSignalBinding.xcodeproj">
+      <SchemeName>OneSignalBinding</SchemeName>
       <!-- Metadata applicable to @(NativeReference) will be used if set, otherwise the following defaults will be used:
       <Kind>Framework</Kind>
       <SmartLink>true</SmartLink>
