@@ -14,16 +14,36 @@
       To learn more, see: https://learn.microsoft.com/dotnet/maui/migration/android-binding-projects
     -->
   </PropertyGroup>
+  <!--<ItemGroup>
+    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.3.1" />
+    <PackageReference Include="Xamarin.KotlinX.Coroutines.Android" Version="1.6.4" />
+    <PackageReference Include="Xamarin.KotlinX.Coroutines.Core" Version="1.6.4" />
+    <PackageReference Include="Xamarin.AndroidX.Work.Work.Runtime.Ktx" Version="2.7.1.4" />
+  </ItemGroup>-->
   
+  <!--<ItemGroup Condition="$(TargetFramework.Contains('android'))">
+    <AndroidMavenLibrary Include="com.onesignal:OneSignal" Version="5.1.34" Bind="false" />
+  </ItemGroup>
+  <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+    <AndroidMavenLibrary Include="com.onesignal:core" Version="5.1.34" Bind="false" />
+  </ItemGroup>
+  <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+    <AndroidMavenLibrary Include="com.onesignal:notifications" Version="5.1.34" Bind="false" />
+  </ItemGroup>
+  <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+    <AndroidMavenLibrary Include="com.onesignal:in-app-messages" Version="5.1.34" Bind="false" />
+  </ItemGroup>
+  <ItemGroup Condition="$(TargetFramework.Contains('android'))">
+    <AndroidMavenLibrary Include="com.onesignal:location" Version="5.1.34" Bind="false" />
+  </ItemGroup>-->
   <!-- Reference to Android Gradle project -->
   <ItemGroup>
     <AndroidGradleProject Include="../native/build.gradle.kts" >
-      <ModuleName>newbinding</ModuleName>
+      <ModuleName>onesignalbinding</ModuleName>
       <!-- Metadata applicable to @(AndroidLibrary) will be used if set, otherwise the following defaults will be used:
       <Bind>true</Bind>
       <Pack>true</Pack>
       -->
     </AndroidGradleProject>
   </ItemGroup>
-
 </Project>

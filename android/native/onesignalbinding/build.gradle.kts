@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.newbinding"
+    namespace = "com.onesignal.android.binding"
     compileSdk = 34
 
     defaultConfig {
@@ -30,6 +30,7 @@ dependencies {
     // Add package dependency for binding library
     // Uncomment line below and replace {dependency.name.goes.here} with your dependency
     // implementation("{dependency.name.goes.here}")
+    implementation("com.onesignal:OneSignal:5.1.34")
 
 }
 
