@@ -1,11 +1,9 @@
 ﻿namespace MauiSample;
 
 #if IOS
-using NewBinding = NewBindingMaciOS.DotnetNewBinding;
+using OneSignalSDKBinding = OneSignal.Native.iOS.OneSignalSDKBinding;
 #elif ANDROID
-using NewBinding = NewBindingAndroid.DotnetNewBinding;
-#elif (NETSTANDARD || !PLATFORM) || (NET6_0_OR_GREATER && !IOS && !ANDROID)
-using NewBinding = System.Object;
+using OneSignalSDKBinding = Com.Onesignal.Android.Binding.OneSignalSDKBinding;
 #endif
 
 public partial class MainPage : ContentPage
@@ -13,9 +11,11 @@ public partial class MainPage : ContentPage
 	public MainPage()
 	{
 		InitializeComponent();
-
+		
 		#if IOS
-		NewBinding.SetLogLevelWithLogLeve(NewBindingMaciOS.OneSignalLogLevel.Info);
+		OneSignalSDKBinding.SetLogLevel(OneSignal.Native.iOS.OneSignalLogLevel.Info);
+#elif ANDROID
+		OneSignalSDKBinding.SetLogLevel(1);
 		#endif
 		// Call the native binding, which will append a platform specific string to the input string
 		var labelText = "Test";
