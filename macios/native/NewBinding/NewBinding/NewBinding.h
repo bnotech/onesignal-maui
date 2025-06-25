@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <OneSignalFramework/OneSignalFramework.h>
 
 //! Project version number for NewBinding.
 FOUNDATION_EXPORT double NewBindingVersionNumber;

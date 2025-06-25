@@ -1,14 +1,26 @@
 using Foundation;
+using UIKit;
 
 namespace NewBindingMaciOS
 {
 	// @interface DotnetNewBinding : NSObject
 	[BaseType (typeof(NSObject))]
+	// @interface DotnetNewBinding
 	interface DotnetNewBinding
 	{
-		// +(NSString * _Nonnull)getStringWithMyString:(NSString * _Nonnull)myString __attribute__((warn_unused_result("")));
+		// +(void)setLogLevelWithLogLeve:(id)logLeve;
 		[Static]
-		[Export ("getStringWithMyString:")]
-		string GetString (string myString);
+		[Export ("setLogLevelWithLogLeve:")]
+		void SetLogLevelWithLogLeve (OneSignalLogLevel logLevel);
+
+		// +(void)oneSignalInitWithAppId:(NSString * _Nonnull)appId launchOptions:(id)launchOptions;
+		[Static]
+		[Export ("oneSignalInitWithAppId:launchOptions:")]
+		void OneSignalInitWithAppId (string appId, NSObject launchOptions);
+
+		// +(void)notificationsRequestPermission:(id)block;
+		[Static]
+		[Export ("notificationsRequestPermission:")]
+		void NotificationsRequestPermission (NSObject block);
 	}
 }

@@ -1,3 +1,12 @@
-namespace NewBinding.MaciOS.Binding {
-
+namespace NewBindingMaciOS {
+    public enum OneSignalLogLevel
+    {
+        None,
+        Fatal,
+        Error,
+        Warning,
+        Info,
+        Debug,
+        Verbose
+    }
 }

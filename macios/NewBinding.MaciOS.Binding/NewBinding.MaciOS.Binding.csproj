@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net9.0-ios;net9.0-maccatalyst</TargetFrameworks>
+    <TargetFrameworks>net9.0-ios</TargetFrameworks>
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
     <IsBindingProject>true</IsBindingProject>
@@ -27,5 +27,106 @@
       -->
     </XcodeProject>
   </ItemGroup>
-
+  <ItemGroup>
+    <NativeReference Include="Frameworks/OneSignalCore.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks>OneSignalCore</Frameworks>
+      <SmartLink>False</SmartLink>
+      <ForceLoad>True</ForceLoad>
+      <Visible>True</Visible>
+    </NativeReference>
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="Frameworks/OneSignalNotifications.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks>OneSignalNotifications</Frameworks>
+      <SmartLink>False</SmartLink>
+      <ForceLoad>True</ForceLoad>
+      <Visible>True</Visible>
+    </NativeReference>
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="Frameworks/OneSignalOSCore.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks>OneSignalOSCore</Frameworks>
+      <SmartLink>False</SmartLink>
+      <ForceLoad>True</ForceLoad>
+      <Visible>True</Visible>
+    </NativeReference>
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="Frameworks/OneSignalOutcomes.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks>OneSignalOutcomes</Frameworks>
+      <SmartLink>False</SmartLink>
+      <ForceLoad>True</ForceLoad>
+      <Visible>True</Visible>
+    </NativeReference>
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="Frameworks/OneSignalUser.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks>OneSignalUser</Frameworks>
+      <SmartLink>False</SmartLink>
+      <ForceLoad>True</ForceLoad>
+      <Visible>True</Visible>
+    </NativeReference>
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="Frameworks/OneSignalFramework.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks>OneSignalFramework</Frameworks>
+      <SmartLink>False</SmartLink>
+      <ForceLoad>True</ForceLoad>
+      <Visible>True</Visible>
+    </NativeReference>
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="Frameworks/OneSignalExtension.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks>OneSignalExtension</Frameworks>
+      <SmartLink>False</SmartLink>
+      <ForceLoad>True</ForceLoad>
+      <Visible>True</Visible>
+    </NativeReference>
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="Frameworks/OneSignalInAppMessages.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks>OneSignalInAppMessages</Frameworks>
+      <SmartLink>False</SmartLink>
+      <ForceLoad>True</ForceLoad>
+      <Visible>True</Visible>
+    </NativeReference>
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="Frameworks/OneSignalLiveActivities.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks>OneSignalLiveActivities</Frameworks>
+      <SmartLink>False</SmartLink>
+      <ForceLoad>True</ForceLoad>
+      <Visible>True</Visible>
+    </NativeReference>
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="Frameworks/OneSignalLocation.xcframework">
+      <Kind>Framework</Kind>
+      <Frameworks>OneSignalLocation</Frameworks>
+      <SmartLink>False</SmartLink>
+      <ForceLoad>True</ForceLoad>
+      <Visible>True</Visible>
+    </NativeReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Frameworks\OneSignalCore.xcframework\" />
+    <Folder Include="Frameworks\OneSignalFramework.xcframework\" />
+    <Folder Include="Frameworks\OneSignalNotifications.xcframework\" />
+    <Folder Include="Frameworks\OneSignalOSCore.xcframework\" />
+    <Folder Include="Frameworks\OneSignalOutcomes.xcframework\" />
+    <Folder Include="Frameworks\OneSignalUser.xcframework\" />
+    <Folder Include="Frameworks\OneSignalExtension.xcframework\" />
+    <Folder Include="Frameworks\OneSignalInAppMessages.xcframework\" />
+    <Folder Include="Frameworks\OneSignalLiveActivities.xcframework\" />
+    <Folder Include="Frameworks\OneSignalLocation.xcframework\" />
+  </ItemGroup>
 </Project>

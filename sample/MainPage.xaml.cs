@@ -1,6 +1,6 @@
 ﻿namespace MauiSample;
 
-#if IOS || MACCATALYST
+#if IOS
 using NewBinding = NewBindingMaciOS.DotnetNewBinding;
 #elif ANDROID
 using NewBinding = NewBindingAndroid.DotnetNewBinding;
@@ -14,8 +14,11 @@ public partial class MainPage : ContentPage
 	{
 		InitializeComponent();
 
+		#if IOS
+		NewBinding.SetLogLevelWithLogLeve(NewBindingMaciOS.OneSignalLogLevel.Info);
+		#endif
 		// Call the native binding, which will append a platform specific string to the input string
-		var labelText = NewBinding.GetString("Community Toolkit");
+		var labelText = "Test";
 
 		newBindingSampleLabel.Text = "Hello, " + labelText;
 	}
