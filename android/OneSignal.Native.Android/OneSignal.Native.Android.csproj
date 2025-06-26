@@ -24,17 +24,9 @@
   
   <!--<ItemGroup Condition="$(TargetFramework.Contains('android'))">
     <AndroidMavenLibrary Include="com.onesignal:OneSignal" Version="5.1.34" Bind="false" />
-  </ItemGroup>
-  <ItemGroup Condition="$(TargetFramework.Contains('android'))">
     <AndroidMavenLibrary Include="com.onesignal:core" Version="5.1.34" Bind="false" />
-  </ItemGroup>
-  <ItemGroup Condition="$(TargetFramework.Contains('android'))">
     <AndroidMavenLibrary Include="com.onesignal:notifications" Version="5.1.34" Bind="false" />
-  </ItemGroup>
-  <ItemGroup Condition="$(TargetFramework.Contains('android'))">
     <AndroidMavenLibrary Include="com.onesignal:in-app-messages" Version="5.1.34" Bind="false" />
-  </ItemGroup>
-  <ItemGroup Condition="$(TargetFramework.Contains('android'))">
     <AndroidMavenLibrary Include="com.onesignal:location" Version="5.1.34" Bind="false" />
   </ItemGroup>-->
   <!-- Reference to Android Gradle project -->

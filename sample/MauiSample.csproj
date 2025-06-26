@@ -67,9 +67,28 @@
 
     <!-- Reference the Android binding dependencies -->
     <!-- Uncomment the code block below and update or add AndroidMavenLibrary items for any required dependencies -->
-    <!--
-    <ItemGroup Condition="$(TargetFramework.Contains('android'))">
-        <AndroidMavenLibrary Include="{DependencyGroupId}:{DependencyName}" Version="{DependencyVersion}" Bind="false" />
-    </ItemGroup>
-    -->
+	<ItemGroup Condition="$(TargetFramework.Contains('android'))">
+		<AndroidMavenLibrary Include="com.onesignal:OneSignal" Version="5.1.34" Bind="false" />
+		<AndroidMavenLibrary Include="com.onesignal:core" Version="5.1.34" Bind="false" />
+		<AndroidMavenLibrary Include="com.onesignal:notifications" Version="5.1.34" Bind="false" />
+		<AndroidMavenLibrary Include="com.onesignal:in-app-messages" Version="5.1.34" Bind="false" />
+		<AndroidMavenLibrary Include="com.onesignal:location" Version="5.1.34" Bind="false" />
+		<AndroidMavenLibrary Include="org.jetbrains.kotlinx:kotlinx-coroutines-android" Version="1.6.4" Bind="false" />
+		<AndroidMavenLibrary Include="org.jetbrains.kotlinx:kotlinx-coroutines-core" Version="1.6.4" Bind="false" />
+		<AndroidMavenLibrary Include="org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm" Version="1.6.4" Bind="false" />
+		<AndroidMavenLibrary Include="org.jetbrains.kotlin:kotlin-stdlib-jdk7" Version="1.7.10" Bind="false" />
+		<AndroidMavenLibrary Include="org.jetbrains.kotlin:kotlin-stdlib-jdk8" Version="1.6.21" Bind="false" />
+		<AndroidMavenLibrary Include="org.jetbrains.kotlin:kotlin-stdlib" Version="1.7.10" Bind="false" />
+		<AndroidMavenLibrary Include="org.jetbrains.kotlin:kotlin-stdlib-common" Version="1.7.10" Bind="false" />
+		<AndroidMavenLibrary Include="org.jetbrains:annotations" Version="13.0" Bind="false" />
+		<AndroidMavenLibrary Include="androidx.work:work-runtime" Version="2.8.1" Bind="false" />
+		<AndroidMavenLibrary Include="androidx.work:work-runtime-ktx" Version="2.8.1" Bind="false" />
+		<AndroidMavenLibrary Include="com.google.firebase:firebase-messaging" Version="23.4.0" Bind="false" />
+		<AndroidMavenLibrary Include="androidx.browser:browser" Version="1.3.0" Bind="false" />
+		<AndroidMavenLibrary Include="androidx.cardview:cardview" Version="1.0.0" Bind="false" />
+		<AndroidMavenLibrary Include="androidx.appcompat:appcompat" Version="1.3.1" Bind="false" />
+		<!--
+		<AndroidMavenLibrary Include="" Version="" Bind="false" />	
+		-->
+	</ItemGroup>
 </Project>
